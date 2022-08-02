@@ -1,5 +1,5 @@
 #import "AppDelegate.h"
-#import "GeneratedPluginRegistrant.h"
+//#import "GeneratedPluginRegistrant.h"
 #import <HyphenateChat/HyphenateChat.h>
 #import <EaseCallKit/EaseCallUIKit.h>
 #import <MBProgressHUD.h>
@@ -22,7 +22,7 @@ dispatch_async(dispatch_get_main_queue(), block);\
     NSString *password = @"1";
 
     [EMClient.sharedClient loginWithUsername:userName password:password];
-    [GeneratedPluginRegistrant registerWithRegistry:self];
+//    [GeneratedPluginRegistrant registerWithRegistry:self];
 
 
     return YES;
