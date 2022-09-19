@@ -22,7 +22,7 @@ A new flutter plugin project.
   s.dependency 'EaseCallKit', '3.9.5'
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
-  s.dependency 'HyphenateChat', '~>3.9.3.1'
+  s.dependency 'HyphenateChat', '~>3.9.5'
   s.dependency 'MBProgressHUD'
 
 end
